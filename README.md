@@ -1,6 +1,6 @@
 # deltaworks.it
 
-Interfaces and continuity.
+interfaces and continuity.
 
 Where the system meets reality.  
 Where components become coherent.
@@ -11,8 +11,8 @@ This layer ensures:
 • version continuity  
 • integration between layers  
 
-.it does not redefine,  
-.it connects.  
+IT does not redefine,  
+it connects.  
 ---
 
 DELTAWORKS — Engineering the stack
