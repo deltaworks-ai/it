@@ -11,5 +11,9 @@ This layer ensures:
 • version continuity  
 • integration between layers  
 
+.it does not redefine,  
 .it connects.  
-.it does not redefine.
+---
+
+DELTAWORKS — Engineering the stack
+
