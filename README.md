@@ -1,4 +1,15 @@
-# it
-**Integration and glue** | Interfaces, deployment boundaries, and system edges.
+# deltaworks.it
 
-_it_ is where the system meets reality — and must remain honest.
+Interfaces and continuity.
+
+Where the system meets reality.  
+Where components become coherent.
+
+This layer ensures:
+
+• identity and access  
+• version continuity  
+• integration between layers  
+
+.it connects.  
+.it does not redefine.
