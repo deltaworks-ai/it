@@ -1,7 +1,6 @@
 # deltaworks.it
 
-**interfaces and continuity**
-
+**interfaces and continuity**  
 Where the system meets reality.  
 Where components become coherent.
 
@@ -14,6 +13,6 @@ This layer ensures:
 IT does not redefine,  
 it connects.  
 ---
-
-DELTAWORKS — Engineering the stack
+D　Ξ　L　T　Λ　W　Ω　R　K　S  
+e n g i n e e r i n g　t h e　s t a c k
 
