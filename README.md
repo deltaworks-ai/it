@@ -1,6 +1,6 @@
 # deltaworks.it
 
-**interfaces and thread**  
+**interfaces and topology**  
 Where the system meets reality  
 and components become coherent.
 
