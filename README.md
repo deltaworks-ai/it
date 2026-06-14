@@ -1,8 +1,8 @@
 # deltaworks.it
 
 **interfaces and thread**  
-Where the system meets reality  
-and components become coherent.
+Where the system meets reality and  
+components become coherent.
 
 This layer ensures:
 
