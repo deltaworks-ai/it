@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DELTAWORKS — engineering the stack</title>
+<meta name="description" content="An engineering culture. Eight domains, one system. Built from the inside out, approached as one.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--void:#06090a; --signal:#4fe6dd; --bright:#7ff0e8; --core:#dffbf6; --deep:#159a90;
+    --mono:"JetBrains Mono",ui-monospace,monospace; --sans:"Space Grotesk",system-ui,sans-serif;
+    --wordmark:"Segoe UI",system-ui,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif;}
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{min-height:100vh; background:var(--void); background-image:radial-gradient(120% 60% at 50% -5%, rgba(40,165,153,.10) 0%, rgba(6,9,10,0) 55%); color:#c3d0ce; font-family:var(--sans); font-weight:300;}
+  .wrap{max-width:840px; margin:0 auto; padding:96px 40px 70px; display:flex; flex-direction:column; align-items:center;}
+  .mark{animation:breathe 5s ease-in-out infinite; filter:drop-shadow(0 0 6px var(--bright)) drop-shadow(0 0 18px var(--signal)) drop-shadow(0 0 42px var(--deep));}
+  @keyframes breathe{0%,100%{opacity:.92;transform:scale(1);}50%{opacity:1;transform:scale(1.015);}}
+  .word{font-family:var(--wordmark); font-weight:500; font-size:clamp(40px,7vw,58px); letter-spacing:.1em; color:var(--core); text-shadow:0 0 16px rgba(79,230,221,.32),0 0 44px rgba(21,154,144,.35); margin-top:30px; padding-left:.1em;}
+  .tagline{font-size:clamp(16px,2.4vw,23px); letter-spacing:.5em; text-transform:lowercase; color:rgba(159,212,206,.85); margin-top:22px; padding-left:.5em;}
+  .essence{max-width:540px; text-align:center; font-size:16px; line-height:1.7; color:rgba(180,196,193,.55); margin-top:22px;}
+  .launch{font-family:var(--mono); font-size:13px; letter-spacing:.2em; color:rgba(120,160,156,.8); margin-top:26px;}
+  .launch b{color:var(--bright); font-weight:500;}
+  .eco{position:relative; width:100%; margin-top:64px; padding-left:30px;}
+  .eco .spine{position:absolute; left:0; top:6px; bottom:6px; width:2px; background:linear-gradient(var(--signal), rgba(79,230,221,0)); box-shadow:0 0 10px var(--deep);}
+  .eco a{display:flex; justify-content:space-between; align-items:baseline; gap:20px; padding:16px 6px 16px 26px; border-bottom:1px solid rgba(120,200,194,.08); text-decoration:none; transition:background .18s, padding .18s;}
+  .eco a:hover{background:rgba(79,230,221,.05); padding-left:34px;}
+  .eco .dom{font-family:var(--mono); font-size:clamp(18px,3vw,24px); color:rgba(202,214,212,.82);}
+  .eco .dom b{color:var(--signal); font-weight:500; text-shadow:0 0 12px var(--deep);}
+  .eco a:hover .dom{color:var(--core);}
+  .eco .tag{font-size:clamp(14px,2vw,18px); color:rgba(159,212,206,.55); text-align:right;}
+  .eco-here{opacity:.66;}
+  footer{display:flex; align-items:center; justify-content:space-between; width:100%; margin-top:60px; padding-top:30px; border-top:1px solid rgba(120,200,194,.1);}
+  footer .by{display:flex; align-items:center; gap:14px;}
+  footer span{font-family:var(--mono); font-size:13px; letter-spacing:.16em; color:rgba(140,182,178,.75);}
+  footer .url{color:rgba(120,160,156,.6); letter-spacing:.1em;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="mark"><svg width="104" height="104" viewBox="0 0 100 100"><path d="M50 14 L86 80 L14 80 Z" fill="rgba(79,230,221,.05)" stroke="#dffbf6" stroke-width="5" stroke-linejoin="round"/></svg></div>
+    <div class="word">D Ξ L T Λ W Ω R K S</div>
+    <div class="tagline">engineering the stack</div>
+    <div class="essence">Deltaworks is an engineering culture, not a webshop, 
+not a systems integrator, and not an AI agency.
+<p></p>
+We design, validate, and deliver coherent AI architecture — 
+from hardware to cognition — whose behavior is explicit, 
+bounded, and architecturally defensible.
+<p></p>
+Every Deltaworks development exists because it satisfies 
+a clear contract: it behaves exactly as specified — 
+or execution is refused.
+<p></p>
+Deltaworks systems are <b>not</b> built from the outside in<br> 
+(features → hardware → excuses). 
+They are built from the inside out.
+<p></p>
+<p></p>
+Eight layers, one seal of approval; engineered by Δ.works  </div>
+    <div class="launch">launch &nbsp;22·06·2026&nbsp; — &nbsp;<b><span id="hh">--</span>h</b> <b><span id="mm">--</span>m</b> <b><span id="ss">--</span>s</b></div>
+    <nav class="eco">
+      <div class="spine"></div>
+    <a href="https://deltaworks.engineering" class="">
+      <span class="dom"><b>.engineering</b></span>
+      <span class="tag">source of truth</span>
+    </a>
+    <a href="https://deltaworks.dev" class="">
+      <span class="dom"><b>.dev</b></span>
+      <span class="tag">observation and iteration</span>
+    </a>
+    <a href="https://deltaworks.build" class="">
+      <span class="dom"><b>.build</b></span>
+      <span class="tag">architecture made physical</span>
+    </a>
+    <a href="https://deltaworks.cloud" class="">
+      <span class="dom"><b>.cloud</b></span>
+      <span class="tag">support, not replacement</span>
+    </a>
+    <a href="https://deltaworks.store" class="">
+      <span class="dom"><b>.store</b></span>
+      <span class="tag">results, not options</span>
+    </a>
+    <a href="https://deltaworks.studio" class="">
+      <span class="dom"><b>.studio</b></span>
+      <span class="tag">form and clarity</span>
+    </a>
+    <a href="https://deltaworks.run" class="">
+      <span class="dom"><b>.run</b></span>
+      <span class="tag">execution and repeatability</span>
+    </a>
+    <a href="https://deltaworks.it" class="eco-here">
+      <span class="dom"><b>.it</b></span>
+      <span class="tag">interfaces and thread  ·  you are here</span>
+    </a>
+    </nav>
+    <footer>
+      <span class="by"><svg width="22" height="22" viewBox="0 0 100 100" style="filter:drop-shadow(0 0 5px #159a90)"><path d="M50 14 L86 80 L14 80 Z" fill="none" stroke="#4fe6dd" stroke-width="6" stroke-linejoin="round"/></svg><span>engineered by delta.works</span></span>
+      <span class="url">deltaworks.it</span>
+    </footer>
+  </div>
+<script>
+(function(){
+  var target=new Date('2026-06-22T00:00:00').getTime();
+  var pad=function(n){return String(n).padStart(2,'0');};
+  function tick(){ var diff=Math.max(0,target-Date.now());
+    var h=Math.floor(diff/3600000), m=Math.floor((diff%3600000)/60000), s=Math.floor((diff%60000)/1000);
+    var set=function(id,v){var el=document.getElementById(id); if(el)el.textContent=pad(v);};
+    set('hh',h); set('mm',m); set('ss',s);
+  } tick(); setInterval(tick,1000);
+})();
+</script>
+</body>
+</html>
